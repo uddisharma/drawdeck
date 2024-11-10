@@ -42,7 +42,7 @@ export const Navbar = () => {
           }}
         />
       </div>
-      <div className="flex-col sm:flex-col justify-start items-start">
+      <div className="flex-col sm:flex-col justify-start items-start hidden lg:flex">
         <ToggleTheme />
       </div>
       {organization && <InviteButton />}
