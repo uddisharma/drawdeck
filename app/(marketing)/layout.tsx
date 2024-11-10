@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import { cn } from "@/lib/utils";
-import { Navbar } from "@/components/layout/navbar";
+import { Navbar } from "./_components/navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({

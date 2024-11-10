@@ -8,7 +8,7 @@ import {
 
 import { SearchInput } from "./search-input";
 import { InviteButton } from "./invite-button";
-import { ToggleTheme } from "@/components/layout/toogle-theme";
+import { ToggleTheme } from "@/components/toogle-theme";
 
 export const Navbar = () => {
   const { organization } = useOrganization();

@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { Poppins } from "next/font/google";
 import { LayoutDashboard, Star } from "lucide-react";
 import { OrganizationSwitcher } from "@clerk/nextjs";
@@ -30,7 +29,7 @@ export const OrgSidebar = () => {
             "font-semibold text-2xl",
             font.className,
           )}>
-            Boardsphere
+            BoardSphere
           </span>
         </div>
       </Link>
