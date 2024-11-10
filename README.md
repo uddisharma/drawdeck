@@ -1,63 +1,35 @@
-# Build a Real-Time Miro Clone With Nextjs, React, Tailwind (2024)
+# BoardSphere
 
-![Copy of Copy of Copy of Copy of Fullstack Twitter Clone (11)](https://github.com/AntonioErdeljac/next14-miro-clone/assets/23248726/1f973316-0bf4-4fa0-b014-40bb9edc1942)
+BoardSphere is a Miro-inspired collaborative whiteboarding tool that enables users to brainstorm, organize ideas, and collaborate visually on interactive boards, supporting a seamless and creative team workflow.
 
+## Features
 
-This is a repository for a Build a Real-Time Miro Clone With Nextjs, React, Tailwind (2024) youtube video.
+- Interactive Whiteboards :
+Dive into an infinite canvas that lets you brainstorm, draw, and organize your ideas freely.
 
-[VIDEO TUTORIAL](https://youtu.be/ADJKbuayubE)
+- Real-Time Collaboration :
+Work together with team members in real-time, seeing updates instantly as you brainstorm and strategize.
 
-Features:
+- Drag-and-Drop Elements :
+Easily add sticky notes, shapes, text, images, and files to your boards to capture ideas visually.
 
-- 🛠️ Whiteboard from scratch
-- 🧰 Toolbar with Text, Shapes, Sticky Notes & Pencil
-- 🪄 Layering functionality
-- 🎨 Coloring system
-- ↩️ Undo & Redo functionality
-- ⌨️ Keyboard shortcuts
-- 🤝 Real-time collaboration 
-- 💾 Real-time database 
-- 🔐 Auth, organisations and invites 
-- ⭐️ Favoriting functionality
-- 🌐 Next.js 14 framework
-- 💅 TailwindCSS & ShadcnUI styling
+- Templates Library :
+Access a variety of ready-made templates for brainstorming, mind mapping, flowcharts, project planning, and more.
 
-### Prerequisites
+- Advanced Drawing Tools :
+Use pen, highlighter, and shape tools to sketch out ideas, draw connections, and create visual workflows.
 
-**Node version 14.x**
+- Zoom & Pan Controls :
+Seamlessly zoom in and out or pan across large boards for detailed work or big-picture perspectives.
 
-### Cloning the repository
+- Presentation Mode :
+Quickly switch to a presentation view to share ideas, walk through plans, and present board contents to the team.
 
-```shell
-git clone https://github.com/AntonioErdeljac/next14-miro-clone.git
-```
+## Technologies Used
 
-### Install packages
-
-```shell
-npm i
-```
-
-### Setup .env file
-
-
-```js
-CONVEX_DEPLOYMENT=
-NEXT_PUBLIC_CONVEX_URL=
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-LIVEBLOCKS_SECRET_KEY=
-```
-
-### Setup Convex
-
-```shell
-npx convex dev
-
-```
-
-### Start the app
-
-```shell
-npm run dev
-```
+- Frontend: Next.js
+- Backend: Convex
+- Database: Convex
+- Authentication: Clerk
+- Real Time Collaboration : Liveblocks
+- Deployment: Vercel 
