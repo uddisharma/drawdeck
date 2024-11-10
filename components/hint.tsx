@@ -22,6 +22,7 @@ export const Hint = ({
   sideOffset,
   alignOffset,
 }: HintProps) => {
+
   return (
     <TooltipProvider>
       <Tooltip delayDuration={100}>
@@ -33,7 +34,7 @@ export const Hint = ({
           sideOffset={sideOffset}
           alignOffset={alignOffset}
         >
-          <p className="font-semibold capitalize">{label}</p>
+          <p className="font-semibold capitalize text-white">{label}</p>
         </TooltipContent>
       </Tooltip>
     </TooltipProvider>

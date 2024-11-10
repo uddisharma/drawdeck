@@ -41,14 +41,14 @@ export const Info = ({ boardId }: InfoProps) => {
       <Hint label="Go to boards" side="bottom" sideOffset={10}>
         <Button asChild variant="board" className="px-2">
           <Link href="/">
-            <Image src="/logo.svg" alt="Board logo" height={40} width={40} />
+            <Image src="/logo.png" alt="logo" height={40} width={40} />
             <span
               className={cn(
                 "font-semibold text-xl ml-2 text-black",
                 font.className,
               )}
             >
-              Board
+              BoardSphere
             </span>
           </Link>
         </Button>
@@ -57,7 +57,7 @@ export const Info = ({ boardId }: InfoProps) => {
       <Hint label="Edit title" side="bottom" sideOffset={10}>
         <Button
           variant="board"
-          className="text-base font-normal px-2"
+          className="text-black font-normal px-2 "
           onClick={() => onOpen(data._id, data.title)}
         >
           {data.title}
@@ -68,7 +68,7 @@ export const Info = ({ boardId }: InfoProps) => {
         <div>
           <Hint label="Main menu" side="bottom" sideOffset={10}>
             <Button size="icon" variant="board">
-              <Menu />
+              <Menu className="text-black"/>
             </Button>
           </Hint>
         </div>

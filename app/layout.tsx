@@ -6,7 +6,7 @@ import { SiteConfig } from "@/components/meta";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = SiteConfig
+export const metadata: Metadata = SiteConfig;
 
 export default function RootLayout({
   children,

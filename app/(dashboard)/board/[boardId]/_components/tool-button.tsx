@@ -4,6 +4,7 @@ import { LucideIcon } from "lucide-react";
 
 import { Hint } from "@/components/hint";
 import { Button } from "@/components/ui/button";
+import { useTheme } from "next-themes";
 
 interface ToolButtonProps {
   label: string;
@@ -20,6 +21,10 @@ export const ToolButton = ({
   isActive,
   isDisabled,
 }: ToolButtonProps) => {
+
+  const { theme } = useTheme();
+  const isDarkTheme = theme === "dark";
+
   return (
     <Hint label={label} side="right" sideOffset={14}>
       <Button
@@ -28,7 +33,7 @@ export const ToolButton = ({
         size="icon"
         variant={isActive ? "boardActive" : "board"}
       >
-        <Icon />
+        <Icon className="text-black" />
       </Button>
     </Hint>
   );
