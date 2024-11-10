@@ -1,6 +1,7 @@
 import { Star } from "lucide-react";
 
 import { cn } from "@/lib/utils";
+import { useTheme } from "next-themes";
 
 interface FooterProps {
   title: string;
@@ -19,6 +20,10 @@ export const Footer = ({
   onClick,
   disabled
 }: FooterProps) => {
+
+  const { theme } = useTheme();
+  const isDarkTheme = theme === "dark";
+
   const handleClick = (
     event: React.MouseEvent<HTMLButtonElement, MouseEvent>
   ) => {
@@ -30,7 +35,7 @@ export const Footer = ({
 
   return (
     <div className="relative bg-white p-3">
-      <p className="text-[13px] truncate max-w-[calc(100%-20px)]">
+      <p className={`text-[13px] truncate max-w-[calc(100%-20px)] ${isDarkTheme && "text-black"}`}>
         {title}
       </p>
       <p className="opacity-0 group-hover:opacity-100 transition-opacity text-[11px] text-muted-foreground truncate">
@@ -48,7 +53,7 @@ export const Footer = ({
           className={cn(
             "h-4 w-4",
             isFavorite && "fill-blue-600 text-blue-600"
-          )}          
+          )}
         />
       </button>
     </div>
