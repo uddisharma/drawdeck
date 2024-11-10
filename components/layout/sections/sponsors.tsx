@@ -12,37 +12,37 @@ interface sponsorsProps {
 const sponsors: sponsorsProps[] = [
   {
     icon: "Crown",
-    name: "Acmebrand",
+    name: "Apple",
   },
   {
     icon: "Vegan",
-    name: "Acmelogo",
+    name: "Google",
   },
   {
     icon: "Ghost",
-    name: "Acmesponsor",
+    name: "Microsoft",
   },
   {
     icon: "Puzzle",
-    name: "Acmeipsum",
+    name: "Amazon",
   },
   {
     icon: "Squirrel",
-    name: "Acme",
+    name: "Facebook",
   },
   {
     icon: "Cookie",
-    name: "Accmee",
+    name: "Tesla",
   },
   {
     icon: "Drama",
-    name: "Acmetech",
+    name: "Netflix",
   },
 ];
 
 export const SponsorsSection = () => {
   return (
-    <section id="sponsors" className="max-w-[75%] mx-auto pb-24 sm:pb-32">
+    <section id="sponsors" className="max-w-[75%] mx-auto pb-18 sm:pb-18">
       <h2 className="text-lg md:text-xl text-center mb-6">
         Our Platinum Sponsors
       </h2>
