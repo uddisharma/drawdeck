@@ -40,7 +40,6 @@ export const HeroSection = () => {
               </Button>
             </Link>
           </div>
-
         </div>
 
         <div className="relative group mt-14">
@@ -49,11 +48,7 @@ export const HeroSection = () => {
             width={1200}
             height={1200}
             className="w-full md:w-[1200px] mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-secondary  border-t-primary/30"
-            src={
-              theme === "light"
-                ? "/image.png"
-                : "/image.png"
-            }
+            src={theme === "light" ? "/image.png" : "/image.png"}
             alt="dashboard"
           />
 

@@ -3,7 +3,7 @@
 import {
   UserButton,
   OrganizationSwitcher,
-  useOrganization
+  useOrganization,
 } from "@clerk/nextjs";
 
 import { SearchInput } from "./search-input";
@@ -37,17 +37,15 @@ export const Navbar = () => {
                 border: "1px solid #E5E7EB",
                 justifyContent: "space-between",
                 backgroundColor: "white",
-              }
-            }
+              },
+            },
           }}
         />
       </div>
       <div className="flex-col sm:flex-col justify-start items-start">
         <ToggleTheme />
       </div>
-      {organization && (
-        <InviteButton />
-      )}
+      {organization && <InviteButton />}
       <UserButton />
     </div>
   );

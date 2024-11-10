@@ -35,7 +35,7 @@ export default function Home() {
     <>
       <HeroSection />
       <SponsorsSection />
-      <FooterSection /> 
+      <FooterSection />
     </>
   );
 }

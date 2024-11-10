@@ -7,9 +7,9 @@ interface PathProps {
   y: number;
   points: number[][];
   fill: string;
-  onPointerDown?: (e: React.PointerEvent)  => void;
+  onPointerDown?: (e: React.PointerEvent) => void;
   stroke?: string;
-};
+}
 
 export const Path = ({
   x,
@@ -29,7 +29,7 @@ export const Path = ({
           thinning: 0.5,
           smoothing: 0.5,
           streamline: 0.5,
-        })
+        }),
       )}
       style={{
         transform: `translate(${x}px, ${y}px)`,

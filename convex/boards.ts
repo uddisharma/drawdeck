@@ -19,10 +19,8 @@ export const get = query({
     if (args.favorites) {
       const favoritedBoards = await ctx.db
         .query("userFavorites")
-        .withIndex("by_user_org", (q) => 
-          q
-            .eq("userId", identity.subject)
-            .eq("orgId", args.orgId)
+        .withIndex("by_user_org", (q) =>
+          q.eq("userId", identity.subject).eq("orgId", args.orgId),
         )
         .order("desc")
         .collect();
@@ -43,10 +41,8 @@ export const get = query({
     if (title) {
       boards = await ctx.db
         .query("boards")
-        .withSearchIndex("search_title", (q) => 
-          q
-            .search("title", title)
-            .eq("orgId", args.orgId)
+        .withSearchIndex("search_title", (q) =>
+          q.search("title", title).eq("orgId", args.orgId),
         )
         .collect();
     } else {
@@ -60,10 +56,8 @@ export const get = query({
     const boardsWithFavoriteRelation = boards.map((board) => {
       return ctx.db
         .query("userFavorites")
-        .withIndex("by_user_board", (q) => 
-          q
-            .eq("userId", identity.subject)
-            .eq("boardId", board._id)
+        .withIndex("by_user_board", (q) =>
+          q.eq("userId", identity.subject).eq("boardId", board._id),
         )
         .unique()
         .then((favorite) => {

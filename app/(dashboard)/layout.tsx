@@ -9,11 +9,9 @@ import { ModalProvider } from "@/providers/modal-provider";
 
 interface DashboardLayoutProps {
   children: React.ReactNode;
-};
+}
 
-const DashboardLayout = ({
-  children,
-}: DashboardLayoutProps) => {
+const DashboardLayout = ({ children }: DashboardLayoutProps) => {
   return (
     <main className="h-full">
       <Suspense fallback={<Loading />}>
@@ -32,7 +30,6 @@ const DashboardLayout = ({
           </div>
         </ConvexClientProvider>
       </Suspense>
-
     </main>
   );
 };
