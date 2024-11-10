@@ -11,16 +11,9 @@ export default function RootLayout({
 }>) {
   return (
       <div className={cn("min-h-screen bg-background", inter.className)}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
           <Navbar />
 
           {children}
-        </ThemeProvider>
       </div>
   
   );
