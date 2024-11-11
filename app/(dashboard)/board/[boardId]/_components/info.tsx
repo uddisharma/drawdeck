@@ -68,7 +68,7 @@ export const Info = ({ boardId }: InfoProps) => {
         <div>
           <Hint label="Main menu" side="bottom" sideOffset={10}>
             <Button size="icon" variant="board">
-              <Menu className="text-black"/>
+              <Menu className="text-black" />
             </Button>
           </Hint>
         </div>

@@ -21,7 +21,6 @@ export const ToolButton = ({
   isActive,
   isDisabled,
 }: ToolButtonProps) => {
-
   const { theme } = useTheme();
   const isDarkTheme = theme === "dark";
 

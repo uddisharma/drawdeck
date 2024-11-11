@@ -22,7 +22,6 @@ export const Hint = ({
   sideOffset,
   alignOffset,
 }: HintProps) => {
-
   return (
     <TooltipProvider>
       <Tooltip delayDuration={100}>
