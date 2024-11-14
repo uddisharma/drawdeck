@@ -27,7 +27,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: uddisharma/boardsphere:latest 
+          tags: uddisharma/boardsphere:latest
 
       # Step 4: Verify Pushed Docker Image
       - name: Verify Pushed Image
