@@ -12,7 +12,7 @@ export const SiteConfig = {
     description,
     images: [
       {
-        url: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
+        url: "/public/image.png",
         width: 1200,
         height: 630,
         alt: title,
@@ -25,7 +25,7 @@ export const SiteConfig = {
     title,
     description,
     images: [
-      "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
+      "/public/image.png",
     ],
   },
 };
