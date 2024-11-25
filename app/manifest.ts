@@ -4,7 +4,8 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "BoardSphere",
     short_name: "BoardSphere",
-    description: "BoardSphere - A Miro-inspired collaborative whiteboarding tool",
+    description:
+      "BoardSphere - A Miro-inspired collaborative whiteboarding tool",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",
