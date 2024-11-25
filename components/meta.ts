@@ -24,8 +24,6 @@ export const SiteConfig = {
     site: "https://github.com/uddisharma/Boardsphere",
     title,
     description,
-    images: [
-      "/public/image.png",
-    ],
+    images: ["/public/image.png"],
   },
 };
