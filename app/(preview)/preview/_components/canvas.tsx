@@ -488,13 +488,10 @@
 //   );
 // };
 
-
-import React from 'react'
+import React from "react";
 
 const canvas = () => {
-  return (
-    <div>canvas</div>
-  )
-}
+  return <div>canvas</div>;
+};
 
-export default canvas
+export default canvas;
