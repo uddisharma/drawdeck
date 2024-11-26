@@ -4,8 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "BoardSphere",
     short_name: "BoardSphere",
-    description:
-      "BoardSphere - A Miro-inspired collaborative whiteboarding tool",
+    description : `Boardsphere is a powerful online collaborative whiteboard tool designed for teams to brainstorm, plan, and execute ideas seamlessly. Boost productivity with real-time collaboration, intuitive drawing tools, and flexible workspace organization. Perfect for creative projects, team meetings, and remote collaboration.`,
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",

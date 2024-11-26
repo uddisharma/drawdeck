@@ -6,7 +6,7 @@ import {
   useOrganization,
 } from "@clerk/nextjs";
 import { SearchInput } from "./search-input";
-import { InviteButton } from "./invite-button";
+// import { InviteButton } from "./invite-button";
 import { ToggleTheme } from "@/components/toogle-theme";
 
 export const Navbar = () => {
@@ -44,7 +44,7 @@ export const Navbar = () => {
       <div className="flex-col sm:flex-col justify-start items-start hidden lg:flex">
         <ToggleTheme />
       </div>
-      {organization && <InviteButton />}
+      {/* {organization && <InviteButton />} */}
       <UserButton />
     </div>
   );

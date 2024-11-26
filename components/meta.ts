@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export function constructMetadata({
-  title = `BoardSphere - A Miro-inspired collaborative whiteboarding tool`,
-  description = `BoardSphere - A Miro-Inspired open source whiteboarding tool that enables users to brainstorm, organize ideas, and collaborate visually on interactive boards, supporting a seamless and creative team workflow.`,
+  title = `Boardsphere - Collaborative Online Whiteboard for Teams `,
+  description = `Boardsphere is a powerful online collaborative whiteboard tool designed for teams to brainstorm, plan, and execute ideas seamlessly. Boost productivity with real-time collaboration, intuitive drawing tools, and flexible workspace organization. Perfect for creative projects, team meetings, and remote collaboration.`,
   image = "https://files.edgestore.dev/j26azsoyqh7n72m2/myPublicImages/_public/4ed2998e-f741-49ba-8b00-82ed006d5769.png",
   video,
   icons = [
