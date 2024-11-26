@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { Room } from "@/components/room";
 import { Canvas } from "./_components/canvas";
 import { Loading } from "./_components/loading";
@@ -14,7 +14,7 @@ const BoardIdPage = ({ params }: BoardIdPageProps) => {
   const { setTheme } = useTheme();
   useEffect(() => {
     setTheme("white");
-  }, [])
+  }, []);
   return (
     <Room roomId={params.boardId} fallback={<Loading />}>
       <Canvas boardId={params.boardId} />
