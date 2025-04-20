@@ -48,7 +48,7 @@ export const Info = ({ boardId }: InfoProps) => {
                 font.className,
               )}
             >
-              BoardSphere
+              Drawdeck
             </span>
           </Link>
         </Button>

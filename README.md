@@ -1,6 +1,6 @@
-# BoardSphere
+# Drawdeck
 
-BoardSphere is a Miro-inspired collaborative whiteboarding tool that enables users to brainstorm, organize ideas, and collaborate visually on interactive boards, supporting a seamless and creative team workflow.
+Drawdeck is a Miro-inspired collaborative whiteboarding tool that enables users to brainstorm, organize ideas, and collaborate visually on interactive boards, supporting a seamless and creative team workflow.
 
 ## Features
 

@@ -27,11 +27,11 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: uddisharma/boardsphere:latest
+          tags: uddisharma/Drawdeck:latest
 
       # Step 4: Verify Pushed Docker Image
       - name: Verify Pushed Image
-        run: docker pull uddisharma/boardsphere:latest
+        run: docker pull uddisharma/Drawdeck:latest
 
       # Step 5: Install Vercel CLI
       - name: Install Vercel CLI

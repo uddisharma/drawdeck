@@ -26,7 +26,7 @@ export const OrgSidebar = () => {
       <Link href="/">
         <div className="flex items-center gap-x-2">
           <span className={cn("font-semibold text-2xl", font.className)}>
-            BoardSphere
+            Drawdeck
           </span>
         </div>
       </Link>

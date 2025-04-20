@@ -10,8 +10,9 @@ export const HeroSection = () => {
   const { theme } = useTheme();
   return (
     <section className="container w-full">
-      <div className="grid place-items-center lg:max-w-screen-xl gap-8 mx-auto py-20 md:py-32">
-        <div className="text-center space-y-8">
+      <div className="grid place-items-center lg:max-w-screen-xl gap-8 mx-auto pt-20 md:pt-32 max-w-full">
+
+        <div className="text-center space-y-8 mx-auto">
           <Badge variant="outline" className="text-sm py-2">
             <span className="mr-2 text-primary">
               <Badge>New</Badge>
@@ -19,22 +20,22 @@ export const HeroSection = () => {
             <span> {`Join the Revolution!`} </span>
           </Badge>
 
-          <div className="max-w-screen-md mx-auto text-center text-4xl md:text-6xl font-bold">
+          <div className="max-w-screen-md mx-auto text-center text-3xl md:text-6xl font-bold">
             <h1>
               Ultimate Collaborative Whiteboard
               <span className="text-transparent px-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
-                BoardSphere
+                Drawdeck
               </span>
             </h1>
           </div>
 
-          <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
+          <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground text-center">
             {`Transforming Team Collaboration with the Ultimate Digital Whiteboard for Visual Ideas and Innovation`}
           </p>
 
-          <div className="space-y-4 md:space-y-0 md:space-x-4">
+          <div className="space-y-4 md:space-y-0 md:space-x-4 text-center">
             <Link href="/dashboard">
-              <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
+              <Button className="w-5/6 md:w-1/4 font-bold group/arrow mx-auto">
                 Get Started
                 <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
               </Button>

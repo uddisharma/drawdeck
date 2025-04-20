@@ -6,18 +6,17 @@ import Link from "next/link";
 export const FooterSection = () => {
   return (
     <footer id="footer" className="container pt-24 sm:pt-32 pb-10">
-      <div className="p-10 bg-card border border-secondary rounded-2xl">
+      <div className="p-4 bg-card border border-secondary rounded-2xl">
         <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-x-12 gap-y-8">
           <div className="col-span-full xl:col-span-2">
             <Link href="#" className="flex font-bold items-center">
               <Image
-                src="/logo.png"
+                src="/logo1.png"
                 alt="logo"
-                width={40}
+                width={120}
                 height={40}
                 className="mr-2"
               />
-              <h3 className="text-2xl">BoardSphere</h3>
             </Link>
           </div>
 
